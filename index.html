@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <title>CONVERSOR DE MOEDAS</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="inf">
+            <h1>CONVERSOR DE MOEDAS</h1>
+        </div>
+        <div id="blocos">
+            <div class="conteudo1">
+                <h3 class="title">DOLLAR</h3>
+                <hr>
+                <input id="input1" type="text" placeholder="Digite um valor aqui:">
+                <br> <br> <br>
+                <input class="button1" type="button" value="Converter"  onclick="pegaValorDollar()">
+                <br> <br> <br>
+                <input type="text" disabled="disabled" id="value1">
+            </div>
+            <div class="conteudo2">
+                <h3 class="title">EURO</h3>
+                <hr>
+                <input id="input2" type="text" placeholder="Digite um valor aqui:">
+                <br> <br> <br>
+                <input class="button2" type="button" value="Converter" onclick="pegaValorEuro()">
+                <br> <br> <br>
+                <input type="text" disabled="disabled" id="value2">
+            </div>
+            <div class="conteudo3">
+                <h3 class="title">LIBRAS</h3>
+                <hr>
+                <input id="input3" type="text" placeholder="Digite um valor aqui:">
+                <br> <br> <br>
+                <input class="button3" type="button" value="Converter" onclick="pegaValorLibras()">
+                <br> <br> <br>
+                <input type="text" disabled="disabled" id="value3">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

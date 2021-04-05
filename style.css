@@ -1,0 +1,129 @@
+body {
+    /*background: #120123;*/
+    background: #00071c;
+}
+
+#container {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 775px;
+    background-image: url('./img/dolar.jpg');
+    background-repeat: no-repeat;
+    background-size: 1210px 790px;
+    border-radius: 40px;
+}
+
+.inf {
+    background: #b7e858;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+.inf h1 {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+#container #blocos {
+    margin-top: 30px;
+}
+
+.conteudo1, .conteudo2, .conteudo3 {
+    background: #00071c;
+    color: white;
+    font-weight: bold;
+}
+
+.conteudo1 {
+    width: 340px;
+    height: 350px;
+    position: relative;
+    float: left;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 5px solid #b7e858;
+    box-shadow: 10px 10px 10px black;
+}
+
+.conteudo2 {
+    width: 340px;
+    height: 350px;
+    position: relative;
+    float: left;
+    margin-top: 100px;
+    margin-right: 60px;
+    border-radius: 20px;
+    border: 5px solid #b7e858;
+    box-shadow: 10px 10px 10px black;
+}
+
+.conteudo3 {
+    width: 340px;
+    height: 350px;
+    position: relative;
+    float: left;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 5px solid #b7e858;
+    box-shadow: 10px 10px 10px black;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    letter-spacing: 2px;
+}
+
+#input1, #input2, #input3 {
+    margin-top: 20px;
+    margin-left: 85px;
+    padding: 10px;
+    text-align: center;
+}
+
+.button1, .button2, .button3 {
+    margin-left: 130px;
+    width: 100px;
+    background: #b7e858;
+    font-weight: bold;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+    border: 2px solid #b7e858;
+    background: #00071c;
+    color: white;
+    font-weight: bold;
+}
+
+#input1:hover, #input2:hover, #input3:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+} 
+
+
+#value1, #value2, #value3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 85px;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    width: 170px;
+    height: 15px;
+}
